@@ -4,3 +4,6 @@
   <img src="prog-bar-dark.png" alt="logo" width="200" />
   <img src="prog-bar-light.png" alt="logo" width="200" />
 </p>
+
+Supported Colors
+![colors](prog-bar-colors.png)<br/>
