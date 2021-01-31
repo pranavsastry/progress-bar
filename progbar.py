@@ -8,7 +8,7 @@ class ProgressBar:
                        bar_color(String) - Set ProgressBar color. Default value = None. Choose from {"red","green","yellow","cyan","purple"}
             update : Updates the ProgressBar by one unit towards completion
                 attrs: None
-            update_to: Updates the ProgressBar to the desired length
+            update_till: Updates the ProgressBar till the desired length
                 attrs: len_done(Integer) - Length of the ProgressBar to be completed
             reset: Resets the ProgressBar
                 attrs: None
@@ -52,7 +52,7 @@ class ProgressBar:
         else:
             self.bar = "{}{}{}".format(ProgressBar.colors[self.bar_color],self.orig,ProgressBar.colors["ENDC"])
 
-    def update_to(self,len_done):
+    def update_till(self,len_done):
         updated = ""
         for i in range(0,len_done):
             updated += ProgressBar.complete
