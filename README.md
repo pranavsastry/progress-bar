@@ -20,7 +20,7 @@
 # Code Snippets <br>
 ```
 >>> from progbar import ProgressBar
->>> bar = ProgressBar(15,"purple")
+>>> bar = ProgressBar(15)
 >>> print(bar.bar)
 ░░░░░░░░░░░░░░░
 >>> bar.update_till(5)
