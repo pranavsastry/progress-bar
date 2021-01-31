@@ -1,3 +1,6 @@
+# Author: Pranav Sastry
+# Date Created: 31st Jan 2021
+
 class ProgressBar:
     """
         CLASS ProgressBar: Main class which generates a progress bar
