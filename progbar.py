@@ -37,9 +37,9 @@ class ProgressBar:
             try:
                 self.bar = "{}{}{}".format(ProgressBar.colors[self.bar_color],self.orig,ProgressBar.colors["ENDC"])
             except:
-                self.bar_color = None
                 print("{}WARNING{}: ".format(ProgressBar.colors["red"],ProgressBar.colors["ENDC"]),end="")
-                print("Specified bar-color is not supported! Using the default color!")
+                print("Specified bar-color \"{}\" is not supported! Using the default color!".format(self.bar_color))
+                self.bar_color = None
                 self.bar = self.orig
 
     def update(self):
