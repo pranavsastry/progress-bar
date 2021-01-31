@@ -6,4 +6,5 @@
 </p>
 
 **Supported Colors**<br>
+{"red", "cyan", "yellow", "green", "purple"}<br>
 ![colors](prog-bar-colors.png)<br/>
