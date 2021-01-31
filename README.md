@@ -5,10 +5,10 @@
   <img src="prog-bar-light.png" alt="logo" width="200" />
 </p>
 
-**Demo**<br>
+# Demo<br>
 ![demo](progbar_demo.gif)<br/>
 
-**Supported Colors**<br>
+# Supported Colors<br>
 {"red", "cyan", "yellow", "green", "purple"}<br>
 ![colors](prog-bar-colors.png)<br/>
 
