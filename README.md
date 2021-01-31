@@ -5,5 +5,5 @@
   <img src="prog-bar-light.png" alt="logo" width="200" />
 </p>
 
-Supported Colors
+**Supported Colors**<br>
 ![colors](prog-bar-colors.png)<br/>
