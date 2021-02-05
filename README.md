@@ -5,8 +5,7 @@
   <img src="prog-bar-light.png" alt="logo" width="200" />
 </p>
 
-# Download progbar<br>
-<a href="https://raw.githubusercontent.com/pranavsastry/progress-bar/main/progbar.py">**Download**</a><br>
+<a href="https://raw.githubusercontent.com/pranavsastry/progress-bar/main/progbar.py"><h1>Download</h1></a><br>
 
 # Demo<br>
 ![demo](progbar_demo.gif)<br/>
